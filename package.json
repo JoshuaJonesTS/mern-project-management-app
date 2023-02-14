@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/JoshuaJonesTS/mern-project-management-app/issues"
   },
-  "homepage": "https://github.com/JoshuaJonesTS/mern-project-management-app#readme"
+  "homepage": "https://github.com/JoshuaJonesTS/mern-project-management-app#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.6.0",
+    "moongoose": "^0.0.5"
+  }
 }
