@@ -112,9 +112,9 @@ const mutation = new GraphQLObjectType({
                     type: new GraphQLEnumType({
                         name: 'ProjectStatus',
                         values: {
-                            'new': { value: 'Not Started '}, 
-                            'progress': { value: 'In Progress'}, 
-                            'competed': { value: 'Completed'}, 
+                            'new': { value: 'Not Started' }, 
+                            'progress': { value: 'In Progress' }, 
+                            'completed': { value: 'Completed' }, 
                         }
                     }),
                     defaultValue: 'Not Started',
@@ -122,7 +122,7 @@ const mutation = new GraphQLObjectType({
                 clientId: {type: new GraphQLNonNull(GraphQLID)}
             },
             resolve(parent, args) {
-                const project = new Client({
+                const project = new Project({
                     name: args.name,
                     description: args.description,
                     status: args.status,
