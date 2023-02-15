@@ -10,3 +10,13 @@ export const DELETE_CLIENT = gql`
         } 
     }
 `
+export const ADD_CLIENT = gql`
+    mutation addClient {
+        addProject {
+            id
+            name
+            email
+            phone
+        }
+    }
+`;
