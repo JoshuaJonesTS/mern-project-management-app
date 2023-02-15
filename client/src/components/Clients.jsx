@@ -25,14 +25,14 @@ export default function Clients() {
     {
         !loading && !error && (
             <table className='table table-hover mt-3'>
-                <tread>
+                <thead>
                     <tr>
                         <th>Name</th>
                         <th>Email</th>
                         <th>Phone</th>
                         <th></th>
                     </tr>
-                </tread>
+                </thead>
                 <tbody>
                     {data.clients.map(client => (
                         <ClientRow key={client.id} client={client} />
