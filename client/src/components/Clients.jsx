@@ -33,9 +33,9 @@ export default function Clients() {
                     </tr>
                 </tread>
                 <tbody>
-                    {data.clients.map(client => {
+                    {data.clients.map(client => (
                         <ClientRow key={client.id} client={client} />
-                    })}
+                    ))}
                 </tbody>
             </table>
         )
