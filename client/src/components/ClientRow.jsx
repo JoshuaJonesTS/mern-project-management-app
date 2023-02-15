@@ -14,8 +14,8 @@ export default function ClientRow({ client }) {
             <td>{ client.phone }</td>
             <td>
                 <button 
-                className="btn btn-danger btn-sm"
-                onClick={deleteClient}
+                    className="btn btn-danger btn-sm"
+                    onClick={deleteClient}
                 >
                     <FaTrash/>
                 </button>
