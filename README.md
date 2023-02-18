@@ -5,7 +5,7 @@ Link: https://www.youtube.com/watch?v=BcLNfwF04Kw
 
 ## Tools Used
 * MERN stack
-    * Mongoose Express React Node
+    * MongoDB Express React Node
 * GraphQL
 
 ## Deployed Site
