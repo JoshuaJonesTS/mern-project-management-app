@@ -10,7 +10,7 @@ const path = require('path');
 
 const app = express();
 
-app.use(cors());
+app.use(cors()); // relax security by allowing server to indicate other origins
 
 // Connect to database
 connectDB();
