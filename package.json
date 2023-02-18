@@ -4,9 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd server && npm install && cd ../client && npm install && npm run build",
     "start": "node server/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "clientinstall": "npm install --prefix client",
+    "dev": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
     "type": "git",
@@ -18,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/JoshuaJonesTS/mern-project-management-app/issues"
   },
-  "homepage": "https://github.com/JoshuaJonesTS/mern-project-management-app#readme"
+  "homepage": "https://github.com/JoshuaJonesTS/mern-project-management-app#readme",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
 }
