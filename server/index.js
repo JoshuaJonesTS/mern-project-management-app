@@ -6,6 +6,7 @@ const schema = require('./schema/schema');
 const connectDB = require('./config/db');
 const cors = require('cors');
 const port = process.env.PORT || 5000;
+const path = require('path');
 
 const app = express();
 
