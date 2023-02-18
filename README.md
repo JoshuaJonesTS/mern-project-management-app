@@ -3,6 +3,11 @@
 ## Walkthrough Video
 Link: https://www.youtube.com/watch?v=BcLNfwF04Kw
 
+## Tools Used
+* MERN stack
+    * Mongoose Express React Node
+* GraphQL
+
 ## Deployed Site
 Link: https://mern-project-management-app-production.up.railway.app/
 
