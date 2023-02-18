@@ -9,7 +9,7 @@ Link: https://www.youtube.com/watch?v=BcLNfwF04Kw
 * GraphQL
 
 ## Deployed Site
-Link: https://mern-project-management-app-production.up.railway.app/
+Link: https://mern-project-management-app.onrender.com/
 
 ## Screenshot
  ![Alt text](./assets/images/01_website-screenshot.JPG?raw=true "Project Management Application")
