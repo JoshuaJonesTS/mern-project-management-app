@@ -9,7 +9,7 @@ Link: https://www.youtube.com/watch?v=BcLNfwF04Kw
 * GraphQL
 
 ## Deployed Site
-Link: https://project-management-app-server-1mvz.onrender.com/
+Link: https://mern-project-management-application.netlify.app/
 
 ## Screenshot
  ![Alt text](./assets/images/01_website-screenshot.JPG?raw=true "Project Management Application")
