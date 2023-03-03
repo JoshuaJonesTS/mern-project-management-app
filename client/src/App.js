@@ -25,7 +25,7 @@ const cache = new InMemoryCache({
 });
 
 const client = new ApolloClient({
-  uri: process.env.REACT_APP_BACKEND,
+  uri: process.env.REACT_APP_BACKEND, // link to deployed backend (Render.com)
   cache
 });
 
